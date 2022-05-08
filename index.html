@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LAB 1</title>
+  </head>
+  <body>
+    <hr />
+    <div class="buttonContainer">
+      <div class="calculatorDiv">Calculator</div>
+      <div class="madeBy">By Chinmay Bhagwat</div>
+    </div>
+    <div id="main-container" class="main-container">
+      <div class="part1">
+        <div class="inputContainer">
+          <input type="number" id="first_number" value="0" />
+          <input type="number" id="second_number" value="0" />
+        </div>
+        <div class="buttonHolder">
+          <button onclick="add()" class="button" role="button">Add</button>
+          <button onclick="substract()" class="button" role="button">
+            Substract
+          </button>
+          <button onclick="clearLog()" class="button" role="button">
+            Clear
+          </button>
+        </div>
+        <div class="answerDiv">
+          <span class="yourAnswerText">Your answer is</span>
+          <span id="answer" class="answer">0</span>
+        </div>
+      </div>
+      <div class="part2">
+        <div class="inputContainer">
+          <input type="number" id="number_table" value="0" />
+        </div>
+        <div class="buttonHolder">
+          <button onclick="generateTable()" class="button" role="button">
+            Generate
+          </button>
+        </div>
+        <div class="answerDiv">
+          <span id="result"></span>
+        </div>
+      </div>
+      <div></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

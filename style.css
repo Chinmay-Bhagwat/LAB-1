@@ -1,0 +1,149 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    background-color: white;
+    height: 60%;
+    width: 70%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 4px 17px 7px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 3px 4px 17px 7px rgba(0,0,0,0.17);
+    -moz-box-shadow: 3px 4px 17px 7px rgba(0,0,0,0.17);
+    display: flex;
+    flex-direction: row;
+}
+
+.calculatorDiv{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.buttonContainer {
+    width: 70%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: end;   
+}
+
+input {
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.madeBy{
+    width: 20%;
+    background-color: #c5ba1f;
+    color: white;
+    height: 30px;
+    border-radius: 0px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.answerDiv {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 20px;
+    border: 0.3px solid black;
+    border-radius: 10px;
+    overflow-x: auto;
+    padding: 5px;
+}
+
+.answer {
+    font-size: 140px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.yourAnswerText{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #f7fafa;
+}
+
+button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.buttonHolder{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.part2{
+    width: 50%;
+    height: 100%;
+}
+
+td{
+    font-size: 20px;
+    font-weight: 700;
+}
